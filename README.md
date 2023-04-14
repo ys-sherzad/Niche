@@ -1,13 +1,15 @@
-# Perky 👑
+# Niche 👑
 
-![](PerkyScreenshot.png)
+Job seeking app concept
+
+![](Niche.gif)
 
 **Installation**
 
 Clone the repo
 
 ```
-git clone https://github.com/ys-sherzad/Perky.git
+git clone https://github.com/ys-sherzad/Niche.git
 ```
 
 On your project directory
