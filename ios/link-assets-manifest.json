@@ -1,0 +1,41 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Poppins-Black.ttf",
+      "sha1": "048555c4d0c3a6022b480be4596b1c95d605d32b"
+    },
+    {
+      "path": "assets/fonts/Poppins-Bold.ttf",
+      "sha1": "b9b65c039a1f10a5cb5e0726c6e7e18e98a8e517"
+    },
+    {
+      "path": "assets/fonts/Poppins-ExtraBold.ttf",
+      "sha1": "66815173c5954271fac6b3ef51076f186577ad6f"
+    },
+    {
+      "path": "assets/fonts/Poppins-ExtraLight.ttf",
+      "sha1": "76ae3e4052ea2a21facd642ddd13cbaa80650fa6"
+    },
+    {
+      "path": "assets/fonts/Poppins-Light.ttf",
+      "sha1": "246982f0e815573f4915b4dd6f9861d56f147da2"
+    },
+    {
+      "path": "assets/fonts/Poppins-Medium.ttf",
+      "sha1": "af7058373acbcf383dd114b8f9bbfb9faafd79eb"
+    },
+    {
+      "path": "assets/fonts/Poppins-Regular.ttf",
+      "sha1": "01d319c533f62ea29f03b5df8adfd4d93d2d2a38"
+    },
+    {
+      "path": "assets/fonts/Poppins-SemiBold.ttf",
+      "sha1": "20b39c8b480c946b084d6aa09f12bf10b2ec5aa6"
+    },
+    {
+      "path": "assets/fonts/Poppins-Thin.ttf",
+      "sha1": "c5c36432a1d00d653bde8a47f4c99171f02362e8"
+    }
+  ]
+}

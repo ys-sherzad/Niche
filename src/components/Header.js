@@ -44,7 +44,7 @@ const Header = (props) => {
                 <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                     <TouchableOpacity style={styles.profileImgContainer}>
                         <Image
-                            source={require('../../assets/yasir.png')}
+                            source={require('../../assets/image4.png')}
                             style={styles.profileImg}
                         />
                     </TouchableOpacity>
