@@ -1,12 +1,3 @@
-/**
- *     (╯ ͡❛ ͜ʖ ͡❛)╯┻━┻
- * **************************************************************
- * Instagram @ ys.sherzad  *************************
- * Twitter @ YasirSherzad  ********************
- * **************************************************************
- * "Make everyday count" 🇦🇫
- */
-
 import React, { useState } from 'react';
 import {
     StyleSheet,
@@ -22,7 +13,7 @@ import { theme } from '../theme';
 import SearchIcon from '../../assets/search.svg';
 import FilterIcon from '../../assets/filter.svg';
 
-import Latest from './Lastest';
+import Latest from './Latest';
 import Section from './Section';
 import Categories from './Categories';
 
