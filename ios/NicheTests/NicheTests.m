@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface perkyTests : XCTestCase
+@interface NicheTests : XCTestCase
 
 @end
 
-@implementation perkyTests
+@implementation NicheTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {

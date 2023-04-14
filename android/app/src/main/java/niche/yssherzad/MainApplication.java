@@ -1,4 +1,4 @@
-package com.perky;
+package niche.yssherzad;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

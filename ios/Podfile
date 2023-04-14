@@ -21,7 +21,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'perky' do
+target 'Niche' do
   config = use_native_modules!
 
   # Flags change depending on the env values.
@@ -43,7 +43,7 @@ target 'perky' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'perkyTests' do
+  target 'NicheTests' do
     inherit! :complete
     # Pods for testing
   end

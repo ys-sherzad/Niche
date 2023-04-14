@@ -93,9 +93,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.perky"
+    namespace "niche.yssherzad"
     defaultConfig {
-        applicationId "com.perky"
+        applicationId "niche.yssherzad"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
