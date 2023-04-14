@@ -2,6 +2,8 @@
   "name": "perky",
   "version": "0.0.1",
   "author": "Yasir Sherzad <ys.sherzad@gmail.com>",
+  "description": "Niche is a job portal app concept",
+  "repository": "https://github.com/ys-sherzad/Niche",
   "license": "Apache License",
   "private": true,
   "scripts": {
@@ -12,11 +14,18 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-masked-view/masked-view": "^0.2.9",
+    "@react-navigation/native": "6.0.6",
+    "@react-navigation/native-stack": "6.2.4",
+    "@react-navigation/stack": "6.0.11",
     "react": "18.2.0",
     "react-native": "0.71.6",
     "react-native-gesture-handler": "^2.9.0",
     "react-native-linear-gradient": "^2.6.2",
     "react-native-reanimated": "^3.0.2",
+    "react-native-safe-area-context": "^4.5.1",
+    "react-native-screens": "^3.20.0",
+    "react-native-snap-carousel": "^3.9.1",
     "react-native-svg": "^13.9.0"
   },
   "devDependencies": {
