@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {
+    View,
+    ActivityIndicator,
     StyleSheet
 } from 'react-native';
 import {
@@ -31,11 +33,18 @@ const JobScreenOptions = {
 };
 
 const App = gestureHandlerRootHOC(() => {
-
+    const [isLoading, setIsLoading] = useState(true)
+    useEffect(() => {
+        setTimeout(() => {
+            setIsLoading(false)
+        }, 1000)
+    }, [])
     return (
         <SafeAreaProvider>
             <SafeAreaView style={styles.flexOne} edges={['top', 'left', 'right']}>
-                <NavigationContainer>
+                {isLoading && <View style={{flex:1, justifyContent: 'center', alignItems: 'center'}}><ActivityIndicator size={'small'} color={'#000'}/></View>}
+                {!isLoading && (
+                    <NavigationContainer>
                     <Stack.Navigator>
                         <Stack.Screen
                             name="home"
@@ -48,7 +57,8 @@ const App = gestureHandlerRootHOC(() => {
                             options={JobScreenOptions}
                         />
                     </Stack.Navigator>
-                </NavigationContainer>
+                    </NavigationContainer>
+                )}
             </SafeAreaView>
         </SafeAreaProvider>
     );
